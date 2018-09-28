@@ -1,0 +1,7 @@
+{% import 'MasterTrainingBundle:Blog:macros.html.twig' as blogMacros %}
+
+{% block meta %}
+    <meta charset="utf-8">
+{% endblock %}
+
+{{ blogMacros.widgetList('Aktualnie obserwuje', list, 'Wszystkie spółki', 'http://www.gpw.pl/spolki') }}

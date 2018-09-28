@@ -1,0 +1,7 @@
+parameters:
+    appApiKey: dasiodaobfa3214140
+    
+twig:
+    globals:
+      meta_description: Z pamiętnika domorosłego inwestora.
+      meta_author: Janek Złotówka

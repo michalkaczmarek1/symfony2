@@ -1,0 +1,18 @@
+{% macro widgetList(title, listItems, btnLabel, btnUrl) %}
+
+{% block meta %}
+    <meta charset="utf-8">
+{% endblock %}
+
+<section class="widget">
+    <h2>{{ title }}</h2>
+    
+  	<ol>
+      {% for item in listItems %}
+      	<li>{{ item }}</li>
+      {% endfor %}
+    </ol>
+    
+    <p><a class="btn btn-default" href="{{ btnUrl }}" role="button">{{ btnLabel }}</a></p>
+</section>	
+{% endmacro %}

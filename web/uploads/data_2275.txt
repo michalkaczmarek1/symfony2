@@ -1,0 +1,33 @@
+Array
+(
+    [name] => Janina Nowak
+    [email] => jnowak@gmail.com
+    [sex] => f
+    [birthdate] => DateTime Object
+        (
+            [date] => 1939-10-21 00:00:00.000000
+            [timezone_type] => 3
+            [timezone] => Europe/Warsaw
+        )
+
+    [country] => PA
+    [course] => at
+    [invest] => Array
+        (
+            [0] => o
+            [1] => etf
+        )
+
+    [comments] => testowy komentarz
+    [paymentFile] => Symfony\Component\HttpFoundation\File\UploadedFile Object
+        (
+            [test:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 
+            [originalName:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 02-drupal-instalacja-xampp.pdf
+            [mimeType:Symfony\Component\HttpFoundation\File\UploadedFile:private] => application/pdf
+            [size:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 118813
+            [error:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 0
+            [pathName:SplFileInfo:private] => /tmp/php0VnreM
+            [fileName:SplFileInfo:private] => php0VnreM
+        )
+
+)

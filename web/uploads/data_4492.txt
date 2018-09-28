@@ -1,0 +1,33 @@
+Array
+(
+    [name] => Jan Kowalski
+    [email] => michalkaczmarek788@gmail.pl
+    [sex] => m
+    [birthdate] => DateTime Object
+        (
+            [date] => 1899-02-03 00:00:00.000000
+            [timezone_type] => 3
+            [timezone] => Europe/Warsaw
+        )
+
+    [country] => AF
+    [course] => basic
+    [invest] => Array
+        (
+            [0] => a
+            [1] => o
+        )
+
+    [comments] => 
+    [paymentFile] => Symfony\Component\HttpFoundation\File\UploadedFile Object
+        (
+            [test:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 
+            [originalName:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 01-wordpress-instalacja-xampp.pdf
+            [mimeType:Symfony\Component\HttpFoundation\File\UploadedFile:private] => application/pdf
+            [size:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 139442
+            [error:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 0
+            [pathName:SplFileInfo:private] => /tmp/phpxRdNQt
+            [fileName:SplFileInfo:private] => phpxRdNQt
+        )
+
+)

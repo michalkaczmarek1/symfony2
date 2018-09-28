@@ -1,0 +1,33 @@
+Array
+(
+    [name] => Andrzej Krawczyk
+    [email] => akrawczyk@gmail.com
+    [sex] => m
+    [birthdate] => DateTime Object
+        (
+            [date] => 1984-06-10 00:00:00.000000
+            [timezone_type] => 3
+            [timezone] => Europe/Warsaw
+        )
+
+    [country] => AU
+    [course] => at
+    [invest] => Array
+        (
+            [0] => f
+            [1] => etf
+        )
+
+    [comments] => komentarz przykładowy
+    [paymentFile] => Symfony\Component\HttpFoundation\File\UploadedFile Object
+        (
+            [test:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 
+            [originalName:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 02-drupal-instalacja-xampp.pdf
+            [mimeType:Symfony\Component\HttpFoundation\File\UploadedFile:private] => application/pdf
+            [size:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 118813
+            [error:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 0
+            [pathName:SplFileInfo:private] => /tmp/phpCogRku
+            [fileName:SplFileInfo:private] => phpCogRku
+        )
+
+)

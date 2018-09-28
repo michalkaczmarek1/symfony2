@@ -1,0 +1,12 @@
+# This file is auto-generated during the composer install
+parameters:
+    database_host: 127.0.0.1
+    database_port: 3306
+    database_name: mi123456_symfony2
+    database_user: mi123456_php
+    database_password: Ka123456
+    mailer_transport: gmail
+    mailer_host: null
+    mailer_user: mi123456ka@gmail.com
+    mailer_password: Ka123Mi456
+    secret: nadslndlndlavav80940197fhdshf938

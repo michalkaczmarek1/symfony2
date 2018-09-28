@@ -1,0 +1,8 @@
+{% import 'MasterTrainingBundle:Blog:macros.html.twig' as blogMacros %}
+
+{% block meta %}
+    <meta charset="utf-8">
+{% endblock %}
+
+{{ blogMacros.widgetList('W portfelu', list, 'Pełny dziennik', path('master_dziennik')) }}
+

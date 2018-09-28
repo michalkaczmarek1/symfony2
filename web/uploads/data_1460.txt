@@ -1,0 +1,33 @@
+Array
+(
+    [name] => Jan Kowalski
+    [email] => michalrugby11@poczta.onet.pl
+    [sex] => m
+    [birthdate] => DateTime Object
+        (
+            [date] => 1898-01-02 00:00:00.000000
+            [timezone_type] => 3
+            [timezone] => Europe/Warsaw
+        )
+
+    [country] => AF
+    [course] => basic
+    [invest] => Array
+        (
+            [0] => a
+            [1] => o
+        )
+
+    [comments] => 
+    [paymentFile] => Symfony\Component\HttpFoundation\File\UploadedFile Object
+        (
+            [test:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 
+            [originalName:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 02-rozbudowa-gp-plusone.pdf
+            [mimeType:Symfony\Component\HttpFoundation\File\UploadedFile:private] => application/pdf
+            [size:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 158940
+            [error:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 0
+            [pathName:SplFileInfo:private] => /tmp/phpqrN2md
+            [fileName:SplFileInfo:private] => phpqrN2md
+        )
+
+)

@@ -1,0 +1,52 @@
+<?php
+namespace Master\TrainingBundle\Entity;
+
+use Symfony\Component\Validator\Constraints as Assert;
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * @ORM\Entity
+ * @ORM\Table(name="messages")
+ */
+class Contact
+{
+    /**
+     * @ORM\Column(type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+    
+    /**
+     * @ORM\Column(type="string", length=255)
+     *
+     * @Assert\NotBlank
+     *
+     * @Assert\Regex(
+     *      pattern="/^[a-zA-Z]+ [a-zA-Z]+$/",
+     *      message="Musisz podać imię i nazwisko"
+     * )
+     *
+     * @Assert\Length(
+     *      max = 255
+     * )
+     */
+    private $name;
+    
+    /**
+     * @ORM\Column(type="string", length=255)
+     *
+     * @Assert\NotBlank
+     *
+     * @Assert\Email
+     */
+    private $email;
+        
+    /**
+     * @ORM\Column(type="text")
+     *
+     * @Assert\NotBlank
+     */
+    private $messages;
+  
+}

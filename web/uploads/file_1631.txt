@@ -1,0 +1,7 @@
+Sposób obstawiania
+
+1 Pierwsze obstawianie po 25% kwoty na 4 możliwości (1, X, 2, 1X)
+2 Kolejne na 3 możliwości w konfiguracji najwyższy kurs 50% kwoty, 
+										 drugi najw. kurs 30 %, 
+										 trzeci 20%
+3 Możliwość zmiany konfiguracji w przypadku znajomości szczególnych informacji

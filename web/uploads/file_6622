@@ -1,0 +1,84 @@
+<?php
+//przykladowy kod
+
+//Pour inserer :
+            $pdf = addslashes(file_get_contents($_FILES['inputname']['tmp_name']));
+            $filetype = addslashes($_FILES['inputname']['type']);//pour le test 
+            $namepdf = addslashes($_FILES['inputname']['name']);            
+            if (substr($filetype, 0, 11) == 'application'){
+            $mysqli->query("insert into tablepdf(pdf_nom,pdf)value('$namepdf','$pdf')");
+            }
+//Pour afficher :
+            $row = $mysqli->query("SELECT * FROM tablepdf where id=(select max(id) from tablepdf)");
+            foreach($row as $result){
+                 $file=$result['pdf'];
+            }
+            header('Content-type: application/pdf');
+            echo file_get_contents('data:application/pdf;base64,'.base64_encode($file));
+
+//tworzenie pliku fopen(plik, tryb(w+ lub wb))
+
+$content = "some text here";
+$fp = fopen($_SERVER['DOCUMENT_ROOT'] . "/myText.txt","wb");
+fwrite($fp,$content);
+fclose($fp);
+
+$sql = "INSERT INTO ImageStore(ImageId,Image)
+        VALUES('$this->image_id','" . file_get_contents($tmp_image) . "')";
+
+        $q="SELECT * FROM {$table} where x;
+$link = mysqli_connect("localhost", "test", "test","mytable");
+$res = mysqli_query($link,$q);
+ if($res)
+   {
+       $row = mysqli_fetch_assoc($res);
+       header("Content-type: text/xml");
+       header("Content-Disposition: attachment; filename=$name");
+       echo $row['blob'];
+   
+
+
+
+   ponizej kod na dodannie tablicy z php do bazy
+<?php
+    if ($_POST) {
+        $cars_string = implode(', ', $_POST['cars']);
+        $sql = '
+            INSERT INTO
+                `my_table` (
+                    `shopID`,
+                    `cars`
+                )
+            VALUES (
+                '. $_POST['shopID'] .',
+                "'. $cars_string .'"
+            )
+        ';
+        mysql_query($sql) OR die(mysql_error());
+    }
+?>
+
+<form method="post" action="">
+Shop ID: <input type="text" name="shopID"/> - 
+<select name="cars[]" multiple="multiple">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="honda">Honda</option>
+    <option value="audi">Audi</option>
+    <option value="bmw">BMW</option>
+</select>
+<input type="submit" name="Submit"/>
+</form>
+
+
+
+2. UStalenie daty dla raportu sprzedazy
+   Przykladowy kod:
+   <?php
+    $date = new DateTime('2000-01-01');
+    $date->add(new DateInterval('P10D'));
+    echo $date->format('Y-m-d') . "\n";
+    ?>  
+
+    $interval = new DateInterval('P2Y4DT6H8M'); - okreslenie ile ma zostac dodane np din do daty poczatkowej
+    var_dump($interval);

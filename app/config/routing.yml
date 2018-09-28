@@ -1,0 +1,5 @@
+master_training:
+    resource: "@MasterTrainingBundle/Resources/config/routing.yml"
+    prefix:   /
+logout:
+    path: /blog/admin/logout

@@ -1,0 +1,11 @@
+parameters:
+      master_training.service.notification.class: Master\TrainingBundle\Service\NotificationService
+
+services:
+      mas_notifications:
+           class: "%master_training.service.notification.class%"
+           arguments: ["@session"]
+             
+#    master_training.example:
+#        class: Master\TrainingBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]

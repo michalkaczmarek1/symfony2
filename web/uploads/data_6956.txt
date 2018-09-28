@@ -1,0 +1,34 @@
+Array
+(
+    [name] => Jan Kowalski
+    [email] => jkowal@gmail.com
+    [sex] => m
+    [birthdate] => DateTime Object
+        (
+            [date] => 1900-01-02 00:00:00.000000
+            [timezone_type] => 3
+            [timezone] => Europe/Warsaw
+        )
+
+    [country] => PL
+    [course] => basic
+    [invest] => Array
+        (
+            [0] => a
+            [1] => o
+            [2] => f
+        )
+
+    [comments] => komentarz
+    [paymentFile] => Symfony\Component\HttpFoundation\File\UploadedFile Object
+        (
+            [test:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 
+            [originalName:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 02-xampp-instalacja.pdf
+            [mimeType:Symfony\Component\HttpFoundation\File\UploadedFile:private] => application/pdf
+            [size:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 113157
+            [error:Symfony\Component\HttpFoundation\File\UploadedFile:private] => 0
+            [pathName:SplFileInfo:private] => /tmp/phpCxIU3N
+            [fileName:SplFileInfo:private] => phpCxIU3N
+        )
+
+)

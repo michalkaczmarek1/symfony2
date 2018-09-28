@@ -1,0 +1,49 @@
+master_training_homepage:
+    path: /
+    defaults:
+        _controller: MasterTrainingBundle:Default:index
+
+master_training_registerUser:
+    path: /register-user/{name}-{age}-{role}
+    defaults: 
+          _controller: MasterTrainingBundle:Default:registerUser
+          role: user
+    requirements: 
+          age: \d+
+          role: user|admin
+    methods: [GET]
+    
+master_training_simple2:
+    path: /simple
+    defaults: 
+          _controller: MasterTrainingBundle:Default:simple2
+          
+master_training_simple1:
+    path: /simple
+    defaults: 
+          _controller: MasterTrainingBundle:Default:simple1
+
+#master_training_annotations:
+#    resource: "@MasterTrainingBundle/Controller/DefaultController.php"
+#    type: annotation
+
+master_training_annotations:
+    resource: "@MasterTrainingBundle/Controller"
+    type: annotation
+    
+#master_training_registerUser:
+#    pattern: /edu-register
+#    defaults: 
+#          _controller: MasterTrainingBundle:Default:simple1
+#    
+
+#master_training_aboutPage:
+#    pattern: /about
+#    defaults: 
+#        _controller: MasterTrainingBundle:Pages:about
+
+master_blog_omnie:
+    path: /blog/o-mnie
+    defaults:
+        _controller: FrameworkBundle:Template:template
+        template: MasterTrainingBundle:Blog:about.html.twig

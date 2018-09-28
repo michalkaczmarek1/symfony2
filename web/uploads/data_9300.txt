@@ -1,0 +1,17 @@
+Array
+(
+    [name] => Michal Kaczmarek
+    [email] => dsandaklda@p.pl
+    [sex] => 
+    [birthdate] => 
+    [country] => AM
+    [course] => basic
+    [invest] => Array
+        (
+            [0] => a
+            [1] => o
+        )
+
+    [comments] => 
+    [rules] => 1
+)

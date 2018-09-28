@@ -1,0 +1,22 @@
+Array
+(
+    [name] => Michał
+    [email] => mi@p.pl
+    [sex] => f
+    [birthdate] => DateTime Object
+        (
+            [date] => 1909-11-13 00:00:00.000000
+            [timezone_type] => 3
+            [timezone] => Europe/Warsaw
+        )
+
+    [country] => AU
+    [course] => at
+    [invest] => Array
+        (
+            [0] => a
+        )
+
+    [comments] => dsd
+    [rules] => 1
+)
